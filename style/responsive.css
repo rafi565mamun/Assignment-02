@@ -45,8 +45,54 @@
     }
     .section-two-img {
        align-items: center
+       
     
     }
+    .section-three{
+        flex-direction: column;
+        width: 355px;
+        height: 530px
+
+
+    }
+    .section-three-img{
+      width: ;
+    }
+
+   .section-three-img-div{
+    width: 300px;
+    height: 400px
+     
+}
+
+.section-three-first-div{
+     align-items: center;
+     
+     
+}
+.section-three-btn{
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    display: block;
+} 
+
+.team-imgs-container{
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
     
-    
+}
+.section-five{
+
+}
+.team-imgs{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+}
+
+
 /* for desktop */

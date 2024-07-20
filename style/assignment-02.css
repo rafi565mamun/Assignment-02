@@ -1,0 +1,210 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header file */
+
+
+.header{
+    background-color: rgb(42, 4, 4); 
+}
+.fitness {
+    color: rgb(253, 5, 5);
+    font-size: 2.5rem;
+
+}
+.header-nav{
+ border: 2px solid red;
+ display: flex;
+ justify-content: space-between;
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 20px;
+align-items: center;
+}
+
+
+.item{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px ;
+   
+}
+.button{
+    background-color:rgb(244, 38, 7);
+   border-style: none;
+   border-radius: 5px;
+   padding: 5px;
+   color: white ;
+}
+
+
+
+
+ /* healthy part */
+ /*  Main part */
+
+ .main{
+    background-color: rgb(250, 29, 29);
+ }
+.healthy{
+      background-color: rgb(41, 19, 19);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    
+      max-width: 1200px;
+      margin: 0 auto;
+}
+#title{
+    font-size:5rem;
+    font-weight:600;
+    width: 520px;
+    height: 280px;
+
+}
+
+ #Shape{
+      font-family: "Dancing Script", cursive;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    }
+ 
+.healthy-container {
+    color: white;
+    width: 520px;
+    height: 280px;
+  
+}
+.Download-btn{
+
+    color: white ;
+    background-color: black;
+    width: max-content;
+    padding: 15px 20px;
+    border-radius: 40px;
+    font-size: 1.2rem;
+    border-color: white;  
+}
+
+
+.red-btn{
+ color: white ;
+    background-color:rgba(230, 83, 60, 1);
+    width: max-content;
+    padding: 15px 20px;
+    border-radius: 40px;
+    font-size: 1.2rem;
+    border-style: none;
+    margin-right: 30px;
+}
+
+.healthy-paragraph{
+   
+  padding: 28px 0px 28px 0px;
+   color: rgba(255, 255, 255, 0.5);
+
+}
+
+.hamburger{ display: none;
+     color: white;
+    }
+
+.healthy-img{
+   height: 600px;
+   width: 350px;
+ 
+   position: relative;
+ 
+}
+
+.position-first{
+    width: max-content;
+    background-color:rgba(0, 0, 0, 0.365);
+    padding: 15px 30px;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    position: absolute;
+    top:80%;
+    right:80%;
+    border-radius: 8%;
+    backdrop-filter: invert(20%); 
+}
+
+.position-second{
+    width: max-content;
+    background-color:rgba(0, 0, 0, 0.336);
+    padding: 15px 15px;
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 700;
+    position: absolute;
+   top: 25%;
+   left: 60%;
+   border-radius: 8%;
+   backdrop-filter: invert(20%); 
+  
+} 
+.posi-sec-id{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.509);
+}
+
+
+
+/*  change your habits part */
+/* section-two */
+.section-two{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.section-two-img-container {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+
+.Change-habits-title{
+    text-align: center;
+    /* border: 2px solid rgb(238, 238, 238); */
+    margin-top: 5%;
+    
+}
+.title{
+    font-size:3rem;
+    font-weight:700;
+    color: white;
+}
+.section-two-imgs{
+ width: 300px;
+ height: 350px;
+
+
+}
+.section-two-imgs{
+    width: 185px;
+    height: 300px;
+}
+.section-two-img-title{
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+.section-two-img-paragraph{
+    text-align: center;
+    color:rgba(255, 255, 255, 0.5);
+    padding: 5px;
+}
+
+
+.section-two-img{
+   border-radius: 100px;
+}

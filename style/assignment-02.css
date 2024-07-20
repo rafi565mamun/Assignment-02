@@ -16,7 +16,7 @@
 
 }
 .header-nav{
- border: 2px solid red;
+ /* border: 2px solid red; */
  display: flex;
  justify-content: space-between;
  max-width: 1200px;
@@ -217,7 +217,7 @@ align-items: center;
     padding: 20px;  
     display: flex;
     justify-content: space-between;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     gap: 10px;
     height: 370px;
     background-color: rgba(0, 0, 0, 0.511);
@@ -225,12 +225,12 @@ align-items: center;
        
 }
  .section-three-first-div{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     
  }
 
  .section-three-img-div{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     width: 1000px;
     border-radius: 15px;
  }
@@ -244,6 +244,99 @@ align-items: center;
 
 /*  section-four */
 
+.section-four{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin: 20px;
+    
+}
+
+.bmi-header{
+text-align: center;
+padding-bottom: 20px;
+
+}
+.bmi-chart-div{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    /* height: 700px; */
+}
+table, th , td{
+     padding: 15px; 
+    /* margin: auto; */
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: bold;
+    border-collapse: collapse;
+    
+}
+  .bmi-weight{
+    color: white;
+    font-size: 1.2rem;
+    text-align: start;
+  }
+.bmi-Chart-calculate{
+    font-size: 2rem;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.calculator-container{
+    /* border: 2px solid black; */
+    /* background-color: blue; */
+    width: 500px;
+    /* padding-left: 20px;
+    padding-right: 60px; */
+    /* gap: 2rem; */
+
+}
+.input-part{
+    width: 250px;
+    height: 60px; 
+    border-radius: 8px;
+    /* padding: 20px; */
+    font-size: 1.2rem;
+    /* padding: 2  2rem; */
+    border-style: none;
+    border: 2px solid black;
+
+}
+.input , select{
+   width: 500px;
+   height: 60px; 
+   border-radius: 8px;
+   /* padding: 20px; */
+   font-size: 1.2rem;
+   /* padding: 2  2rem; */
+     /* gap: 2px; */
+    border-style: none;
+    border: 2px solid black;
+}
+.input-parts{
+   padding-top: 1.5rem;
+   display: flex;
+   justify-content: center;
+   
+
+}
+
+.btn-calculate{
+    color: white ;
+    background-color:rgba(230, 83, 60, 1);
+    width: max-content;
+    padding: 15px 20px;
+    border-radius: 40px;
+    font-size: 1.2rem;
+    border-style: none;
+    margin-top: 30PX;
+}
+
+
+/* section five  part */
+
+
 .section-five{
     max-width: 1200px;
     margin: 0 auto;
@@ -252,7 +345,7 @@ align-items: center;
     display: grid;
     grid-template-columns: repeat(3, 2fr);
     justify-content: space-around;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 30px;
     background-color: rgba(0, 0, 0, 0.39);
     border-radius: 20px;
@@ -312,7 +405,7 @@ align-items: center;
 
 .ul-li{
     list-style: none;
-    /* color:rgba(255, 255, 255, 0.5); */
+    color:rgba(255, 255, 255, 0.5);
    
 }
 .Get-start{
@@ -330,9 +423,5 @@ align-items: center;
 }
 .copy-para{
    padding: 30px;
-   /* justify-content: center;
-   justify-items: center;
-   margin: auto;
-   display: block; */
    text-align: center;
 }

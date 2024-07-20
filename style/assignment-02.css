@@ -260,7 +260,6 @@ align-items: center;
  }
 .section-five-title{
     text-align: center;
-    /* border: 2px solid rgb(238, 238, 238); */
     margin-top: 5%;
     padding: 20px;
 
@@ -287,4 +286,53 @@ align-items: center;
 .trainer{
     color: rgba(255, 255, 255, 0.5);
     
+}
+
+/*   footer  part */
+
+.footer-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* border:  2px solid bisque; */
+    padding-top: 30px;
+    margin-top: 20px;
+    max-width: 1200px;
+      margin: 0 auto;
+}
+
+.footer-title{
+    /* border:  2px solid rgb(255, 197, 126); */
+    width: 500px;
+    padding-right: 100px;
+}
+.footer-container{
+    /* border:  2px solid rgb(177, 98, 2); */
+    
+}
+
+.ul-li{
+    list-style: none;
+    /* color:rgba(255, 255, 255, 0.5); */
+   
+}
+.Get-start{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 20px;
+}
+.copy{
+    padding-top: 30px;
+    margin-top: 20px;
+    max-width: 1200px;
+     margin: 0 auto;
+    color: rgba(255, 255, 255, 0.5);
+}
+.copy-para{
+   padding: 30px;
+   /* justify-content: center;
+   justify-items: center;
+   margin: auto;
+   display: block; */
+   text-align: center;
 }

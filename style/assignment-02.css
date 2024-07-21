@@ -8,6 +8,8 @@
 
 
 .header{
+  
+    /* background-color: rgb(255, 8, 8);  */
     background-color: rgb(42, 4, 4); 
 }
 .fitness {
@@ -50,13 +52,14 @@ align-items: center;
     background-color: rgb(250, 29, 29);
  }
 .healthy{
-      background-color: rgb(41, 19, 19);
+      /* background-color: rgb(41, 19, 19); */
+      background-color: rgb(161, 2, 2);
       display: flex;
       justify-content: space-between;
       align-items: center;
-    
       max-width: 1200px;
       margin: 0 auto;
+      padding: 30px;
 }
 #title{
     font-size:5rem;
@@ -247,8 +250,8 @@ align-items: center;
 .section-four{
     max-width: 1200px;
     margin: 0 auto;
-    margin: 20px;
-    
+    padding: 80px;
+
 }
 
 .bmi-header{
@@ -302,6 +305,7 @@ table, th , td{
     border-style: none;
     border: 2px solid black;
 
+
 }
 .input , select{
    width: 500px;
@@ -322,11 +326,15 @@ table, th , td{
 
 }
 
+.select-activity{
+
+}
+
 .btn-calculate{
     color: white ;
     background-color:rgba(230, 83, 60, 1);
     width: max-content;
-    padding: 15px 20px;
+    padding: 17px 30px;
     border-radius: 40px;
     font-size: 1.2rem;
     border-style: none;
@@ -380,6 +388,63 @@ table, th , td{
     color: rgba(255, 255, 255, 0.5);
     
 }
+
+
+
+
+/* section- sex part */
+
+.icon-container-div{
+    /* border: 2px solid black; */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.icon-container{
+        /* border: 2px solid black; */
+    width: 200px;
+    height: 220px;
+    text-align: center;
+    margin-top: 20px;
+    /* padding: 20px; */
+    }
+ .icon-div{
+    /* display: grid;
+   grid-template-columns: repeat(4, 2fr); */
+   display: flex;
+   flex-wrap: wrap;
+   /* justify-content: center */
+   justify-content: space-evenly;
+   /* border: 2px solid black; */
+   padding: 2rem;
+ }
+
+.icon-imgs{
+    width: 100px;
+    height: 100px;
+}
+icon-container-div, h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.icon-title{
+    color: white;
+    padding: 10px;
+}
+.icon-paragraph{
+   color:rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
+
+
+
 
 /*   footer  part */
 

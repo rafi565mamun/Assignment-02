@@ -105,6 +105,7 @@
 }
 .calculator-container{
   padding-top: 40px;
+  padding-right: 80px;
   justify-content: center;
   align-items: center;
   /* text-align: center; */
@@ -112,6 +113,20 @@
 .bmi-header{
     text-align: center;
     padding-bottom: 20px;
-    /* height: 100px; */
+   align-items: center;
+
+}
+.select-activity{
+    padding-right: 80px;
+    align-items: center;
+    text-align: center;
+    
 }
 
+
+
+
+
+/* end */
+
+}

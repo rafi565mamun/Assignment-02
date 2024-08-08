@@ -375,16 +375,20 @@ table, th , td{
     max-width: 1200px;
     margin: 0 auto;
 }
- .team-imgs-container{
-    display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    justify-content: space-around;
-    /* border: 2px solid black; */
-    padding: 30px;
-    background-color: rgba(0, 0, 0, 0.39);
-    border-radius: 20px;
-    gap: 20px; 
- }
+    .team-imgs-container{
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+        justify-content: space-around;
+        /* border: 2px solid black; */
+        padding: 30px;
+        background-color: rgba(0, 0, 0, 0.39);
+        border-radius: 20px;
+        gap: 20px; 
+        justify-items: center;
+     }
+  
+
+
 .section-five-title{
     text-align: center;
     margin-top: 5%;

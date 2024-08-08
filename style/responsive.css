@@ -83,6 +83,52 @@
     align-items: center;
     
 }
+
+
+
+
+
+/* secton-04------------------------------------------- */
+.section-four{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+  
+    border-radius: 15px;
+    margin-top: 10px;
+
+
+}
+
+.calculator-container{
+    /* border: 2px solid black; */
+    /* background-color: blue; */
+    width: 500px;
+     height: 550px;
+    /* padding-left: 20px;
+    padding-right: 60px; */
+    /* gap: 2rem; */
+   margin: 20px 0;
+   
+}
+
+.input-part{
+    width: 200px;
+    height: 60px; 
+    border-radius: 8px;
+    /* padding: 20px; */
+    font-size: 1.2rem;
+    /* padding: 2  2rem; */
+    border-style: none;
+     
+
+}
+#id-activity-fector {
+    width: 405px;
+}
+
+/*      section- 05  ----------------------------------      */
+
 .section-five{
 
 }

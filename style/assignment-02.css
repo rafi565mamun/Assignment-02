@@ -312,7 +312,7 @@ align-items: center;
 
 
 
-/* --------------------------- section-four ----------------------------*/
+/* --------------------------- section-four BMI ----------------------------*/
 
 .section-four{
     max-width: 1200px;
@@ -326,7 +326,7 @@ align-items: center;
 
 .color{
  
- background-color:#222222;
+    background-color:#222222;
 }
 
 .bmi-header{
@@ -419,8 +419,7 @@ table, th , td{
 
 
 
-
-/* -------------------------------section five  part -------------------------------*/
+/* -------------------------section five  part -- MEET OUT TEAM---------------------*/
 
 
 .section-five{
@@ -431,11 +430,10 @@ table, th , td{
         display: grid;
         grid-template-columns: repeat(3, 2fr);
         justify-content: space-around;
-        /* border: 2px solid black; */
         padding: 30px;
-        background-color: rgba(0, 0, 0, 0.39);
+        background-color:#222222;
         border-radius: 20px;
-        gap: 20px; 
+        gap:30px; 
         justify-items: center;
      }
   
@@ -456,8 +454,8 @@ table, th , td{
  .team-img{
     width: 330px;
     height: 275px;
-    border-radius: 40px;
-    margin-left: 18px; 
+    border-radius: 20px;
+ 
  }
 .team-name{
     position: absolute;
@@ -533,7 +531,7 @@ icon-container-div, h1 {
 .footer-div{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* border:  2px solid bisque; */
+   
     padding-top: 30px;
     margin-top: 20px;
     max-width: 1200px;
@@ -541,7 +539,7 @@ icon-container-div, h1 {
 }
 
 .footer-title{
-    /* border:  2px solid rgb(255, 197, 126); */
+
     width: 500px;
     padding-right: 100px;
 }
@@ -571,4 +569,9 @@ icon-container-div, h1 {
 .copy-para{
    padding: 30px;
    text-align: center;
+}
+.fitness-{
+    color: rgb(253, 5, 5);
+    font-size: 4rem;
+    padding-right: 100%;
 }
